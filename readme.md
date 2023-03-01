@@ -36,4 +36,8 @@
 使用 @rollup/plugin-terser
 `npm install --save-dev @rollup/plugin-terser`
 
+## 代码拆分
+
+对于代码拆分，有些情况下 Rollup 会自动将代码拆分成几块，比如动态加载或多个入口点，也有办法通过 output.manualChunks 选项明确告诉 Rollup 哪些模块要拆成独立的几块。
+
 ## 持续更新...
