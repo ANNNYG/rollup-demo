@@ -6,16 +6,16 @@
 
 ## 安装
 
-`js` npm install rollup --save-dev
+`npm install rollup --save-dev`
 或者
-`js` yarn -D add rollup
+`yarn -D add rollup`
 
 ## 初步使用
 
 安装后，Rollup 可以在项目的根目录中运行：
-`js` npx rollup --config
+`npx rollup --config`
 或者
-`js` yarn rollup --config
+`yarn rollup --config`
 或者自己配置**package.json**的 script
 
 需要文件根目录下有**rollup.config.js**文件，否则报错
@@ -27,7 +27,7 @@
 ## 安装插件
 
 安装 @rollup/plugin-json 作为开发依赖：
-`js` npm install --save-dev @rollup/plugin-json
+`npm install --save-dev @rollup/plugin-json`
 
 ## 使用输出插件
 
